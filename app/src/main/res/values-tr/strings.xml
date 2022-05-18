@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BasketBallApp</string>
+    <string name="new_game">Yeni oyun</string>
+    <string name="continuee">devam et</string>
+    <string name="exitGame">oyundan çıkış</string>
+    <string name="notifications">bildirimler</string>
+    <string name="change_lang">Dili değiştir</string>
+    <string name="logout">çıkış Yap</string>
+    <string name="profile">profil</string>
+    <string name="personalname">Kullanıcı adı</string>
+    <string name="teamName">Takım adı</string>
+    <string name="save">Kaydetmek</string>
+    <string name="team">Benim takımım</string>
+    <string name="permission_read_external_storage">harici depolamayı okuma izni ver</string>
+    <string name="change_language">Dili değiştir</string>
+    <string name="bigText">NBA FANTASY GAME</string>
+    <string name="height">"boy : "</string>
+    <string name="ft">ft</string>
+    <string name="weight">"kilo : "</string>
+    <string name="lb">1 pound = 0.45 kg</string>
+    <string name="playerAdded">oyuncu eklendi</string>
+    <string name="youReachedMaximumPlayers">Maksimum Oyuncuya Ulaşıldı</string>
+    <string name="players">oyuncular</string>
+    <string name="teams">Takımlar</string>
+    <string name="home">Home</string>
+    <string name="underMaintainance">Bakım fragmenti</string>
+
+</resources>

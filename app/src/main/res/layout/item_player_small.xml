@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="@dimen/_70sdp"
+    android:layout_height="@dimen/_100sdp"
+    android:layout_margin="@dimen/_4sdp"
+    app:cardCornerRadius="@dimen/_10sdp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <TextView
+            android:id="@+id/playerHeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_4sdp"
+            android:text="3.5 ft"
+            android:textColor="@color/purple_200"
+            android:textSize="@dimen/_16sdp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/playerPosition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SG"
+            android:textColor="@color/purple_200"
+            android:textStyle="italic"
+            app:layout_constraintStart_toStartOf="@+id/playerHeight"
+            app:layout_constraintTop_toBottomOf="@+id/playerHeight" />
+
+        <TextView
+            android:layout_marginTop="@dimen/_8sdp"
+            android:id="@+id/playerName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lebron james"
+            android:textColor="@color/purple_200"
+            android:textStyle="italic"
+            app:layout_constraintStart_toStartOf="@+id/playerPosition"
+            app:layout_constraintTop_toBottomOf="@+id/playerPosition" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

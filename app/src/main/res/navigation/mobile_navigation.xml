@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.ege.basketballapp.ui.home.HomeFragment"
+        tools:layout="@layout/fragment_home"
+        android:label="HomeFragment" >
+        <action
+            android:id="@+id/action_navigation_home_to_pickPlayersFragment"
+            app:destination="@id/pickPlayersFragment" />
+        <action
+            android:id="@+id/action_navigation_home_to_maintainanceFragment"
+            app:destination="@id/maintainanceFragment" />
+
+
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.ege.basketballapp.ui.profile.ProfileFragment"
+        tools:layout="@layout/fragment_profile"
+        android:label="ProfileFragment" />
+    <fragment
+        android:id="@+id/navigation_my_team"
+        android:name="com.ege.basketballapp.ui.team.TeamFragment"
+        tools:layout="@layout/fragment_team"
+        android:label="TeamFragment" >
+        <action
+            android:id="@+id/action_navigation_my_team_to_playerDetailsFragment"
+            app:destination="@id/playerDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/playerDetailsFragment"
+        tools:layout="@layout/fragment_player_details"
+        android:name="com.ege.basketballapp.ui.team.player.PlayerDetailsFragment"
+        android:label="PlayerDetailsFragment" >
+        <argument
+            android:name="name"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/pickPlayersFragment"
+        tools:layout="@layout/fragment_draft_player"
+        android:name="com.ege.basketballapp.ui.home.newgame.PickPlayersFragment"
+        android:label="PickPlayersFragment" >
+    <argument
+        android:name="game"
+        app:argType="com.ege.basketballapp.model.GameDirections" />
+    </fragment>
+    <fragment
+        android:id="@+id/allTeamsFragment"
+        tools:layout="@layout/fragment_all_team"
+        android:name="com.ege.basketballapp.ui.sidenav.teams.AllTeamsFragment"
+        android:label="AllTeamsFragment" >
+        <action
+            android:id="@+id/action_allTeamsFragment_to_teamPlayersFragment"
+            app:destination="@id/teamPlayersFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/teamPlayersFragment"
+        tools:layout="@layout/fragment_team"
+        android:name="com.ege.basketballapp.ui.sidenav.teams.teamplayers.TeamPlayersFragment"
+        android:label="TeamPlayersFragment" >
+        <argument
+            android:name="teamID"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_teamPlayersFragment_to_playerDetailsFragment"
+            app:destination="@id/playerDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/maintainanceFragment"
+        tools:layout="@layout/fragment_maintainance"
+        android:name="com.ege.basketballapp.ui.sidenav.maintainance.MaintainanceFragment"
+        android:label="MaintainanceFragment" />
+</navigation>

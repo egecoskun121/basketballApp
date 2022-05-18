@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android studio projects/basketBallApp/app/src/main/res/layout/fragment_home.xml" value="0.358695652173913" />
+        <entry key="..\:/Android studio projects/basketBallApp/app/src/main/res/layout/fragment_maintainance.xml" value="0.22" />
+        <entry key="..\:/Android studio projects/basketBallApp/app/src/main/res/layout/fragment_player_details.xml" value="0.358695652173913" />
+        <entry key="..\:/AndroidProj/BasketBallApp/app/src/main/res/drawable-hdpi/back_round_up.xml" value="0.1" />
+        <entry key="..\:/AndroidProj/BasketBallApp/app/src/main/res/drawable/con_round_lavandar.xml" value="0.1" />
+        <entry key="..\:/AndroidProj/BasketBallApp/app/src/main/res/drawable/drawer_item.xml" value="0.1" />
+        <entry key="..\:/AndroidProj/BasketBallApp/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.1" />
+        <entry key="..\:/AndroidProj/BasketBallApp/app/src/main/res/drawable/splash_bg.xml" value="0.1" />
+        <entry key="..\:/AndroidProj/BasketBallApp/app/src/main/res/drawable/splash_screen.xml" value="0.1" />
+        <entry key="..\:/AndroidProj/BasketBallApp/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/AndroidProj/BasketBallApp/app/src/main/res/layout/bottom_sheet_display_languages.xml" value="0.22" />
+        <entry key="..\:/AndroidProj/BasketBallApp/app/src/main/res/layout/fragment_all_team.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidProj/BasketBallApp/app/src/main/res/layout/fragment_draft_player.xml" value="0.14" />
+        <entry key="..\:/AndroidProj/BasketBallApp/app/src/main/res/layout/fragment_home.xml" value="0.16" />
+        <entry key="..\:/AndroidProj/BasketBallApp/app/src/main/res/layout/fragment_player_details.xml" value="0.12" />
+        <entry key="..\:/AndroidProj/BasketBallApp/app/src/main/res/layout/fragment_profile.xml" value="0.16" />
+        <entry key="..\:/AndroidProj/BasketBallApp/app/src/main/res/layout/fragment_team.xml" value="0.16" />
+        <entry key="..\:/AndroidProj/BasketBallApp/app/src/main/res/layout/item_player.xml" value="0.22" />
+        <entry key="..\:/AndroidProj/BasketBallApp/app/src/main/res/layout/item_player_draft.xml" value="0.25" />
+        <entry key="..\:/AndroidProj/BasketBallApp/app/src/main/res/layout/item_player_small.xml" value="0.22" />
+        <entry key="..\:/AndroidProj/BasketBallApp/app/src/main/res/layout/nav_header.xml" value="0.16" />
+        <entry key="..\:/AndroidProj/BasketBallApp/app/src/main/res/layout/progress_dialog.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidProj/BasketBallApp/app/src/main/res/menu/bottom_nav_menu.xml" value="0.2" />
+        <entry key="..\:/AndroidProj/BasketBallApp/app/src/main/res/menu/drawer_view.xml" value="0.2" />
+        <entry key="..\:/Users/egecoskun/Desktop/basketBallApp-master/app/src/main/res/layout/progress_dialog.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/egecoskun/Desktop/basketBallApp-master/app/src/main/res/menu/bottom_nav_menu.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/egecoskun/Desktop/basketBallApp-master/app/src/main/res/menu/drawer_view.xml" value="0.18802083333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

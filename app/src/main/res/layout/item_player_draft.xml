@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+<com.google.android.material.card.MaterialCardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_4sdp">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_8sdp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textColor="@color/black"
+            android:text="lebron james"
+            android:textStyle="bold"
+            android:paddingBottom="@dimen/_2sdp"
+            android:textSize="@dimen/_12sdp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:id="@+id/playername" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/playername"
+            app:layout_constraintStart_toStartOf="parent"
+            android:textColor="@color/black"
+            android:text="position : F"
+            android:id="@+id/position" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/playername"
+            app:layout_constraintStart_toEndOf="@+id/position"
+            android:layout_marginStart="@dimen/_12sdp"
+            android:textColor="@color/black"
+            android:text="height : 6 ft"
+            android:id="@+id/height_feet" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/playername"
+            app:layout_constraintStart_toEndOf="@+id/height_feet"
+            android:layout_marginStart="@dimen/_12sdp"
+            android:textColor="@color/black"
+            android:text="weight : 250 lb"
+            android:id="@+id/weight_lb" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    
+</com.google.android.material.card.MaterialCardView>
+</layout>

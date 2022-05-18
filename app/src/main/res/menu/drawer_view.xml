@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_league"
+            android:icon="@drawable/ic_uefa_europa_league_soccer_svgrepo_com"
+            android:title="@string/teams" />
+        <item
+            android:id="@+id/change_lang"
+            android:icon="@drawable/ic_change_lang"
+            android:title="@string/change_lang" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_logout"
+            android:title="@string/logout" />
+
+    </group>
+</menu>

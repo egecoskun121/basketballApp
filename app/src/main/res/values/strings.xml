@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">BasketBallApp</string>
+    <string name="new_game">New Game</string>
+    <string name="continuee">continue</string>
+    <string name="exitGame">exit game</string>
+    <string name="notifications">notifications</string>
+    <string name="change_lang">change Language</string>
+    <string name="logout">logout</string>
+    <string name="profile">profile</string>
+    <string name="personalname">username</string>
+    <string name="teamName">team name</string>
+    <string name="save">Save</string>
+    <string name="team">My Team</string>
+    <string name="permission_read_external_storage">give permission to read external storage</string>
+    <string name="change_language">change Language</string>
+    <string name="bigText">NBA FANTASY GAME</string>
+    <string name="height">"height : "</string>
+    <string name="ft">ft</string>
+    <string name="weight">"weight : "</string>
+    <string name="lb">lb</string>
+    <string name="playerAdded">player added</string>
+    <string name="youReachedMaximumPlayers">you Reached Maximum Players</string>
+    <string name="players">Players</string>
+    <string name="teams">Teams</string>
+    <string name="home">home</string>
+    <string name="underMaintainance">this fragment is under maintenance</string>
+</resources>
